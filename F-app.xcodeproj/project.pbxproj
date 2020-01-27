@@ -60,14 +60,38 @@
 			children = (
 				555322E223D04DB000F4F965 /* AppDelegate.swift */,
 				555322E423D04DB000F4F965 /* SceneDelegate.swift */,
-				555322E623D04DB000F4F965 /* ViewController.swift */,
-				555322E823D04DB000F4F965 /* Main.storyboard */,
+				55D5E08E23DF06DF0089F65E /* Model */,
+				55D5E08D23DF06DA0089F65E /* View */,
+				55D5E08F23DF06EB0089F65E /* Controller */,
 				555322EE23D04DB200F4F965 /* Assets.xcassets */,
 				555322F023D04DB200F4F965 /* LaunchScreen.storyboard */,
 				555322F323D04DB200F4F965 /* Info.plist */,
 				555322EB23D04DB000F4F965 /* F_app.xcdatamodeld */,
 			);
 			path = "F-app";
+			sourceTree = "<group>";
+		};
+		55D5E08D23DF06DA0089F65E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				555322E823D04DB000F4F965 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55D5E08E23DF06DF0089F65E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55D5E08F23DF06EB0089F65E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				555322E623D04DB000F4F965 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
