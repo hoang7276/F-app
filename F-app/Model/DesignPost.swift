@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import UIKit
+
+struct DesignPost {
+    let designImage: UIImage
+    let userProfilePic: UIImage
+    let designerUsername: String
+    let postDescripton: String
+
+    init(image: UIImage, designerPic: UIImage, username: String, description: String ) {
+        designImage = image
+        userProfilePic = designerPic
+        designerUsername = username
+        postDescripton = description
+    }
+
+}
