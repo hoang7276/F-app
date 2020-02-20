@@ -9,20 +9,17 @@
 /* Begin PBXBuildFile section */
 		555322E323D04DB000F4F965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555322E223D04DB000F4F965 /* AppDelegate.swift */; };
 		555322E523D04DB000F4F965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555322E423D04DB000F4F965 /* SceneDelegate.swift */; };
-		555322E723D04DB000F4F965 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555322E623D04DB000F4F965 /* HomeVC.swift */; };
 		555322EA23D04DB000F4F965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555322E823D04DB000F4F965 /* Main.storyboard */; };
 		555322ED23D04DB000F4F965 /* F_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 555322EB23D04DB000F4F965 /* F_app.xcdatamodeld */; };
 		555322EF23D04DB200F4F965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555322EE23D04DB200F4F965 /* Assets.xcassets */; };
 		555322F223D04DB200F4F965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555322F023D04DB200F4F965 /* LaunchScreen.storyboard */; };
 		558A499023E329CC005F80BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A498F23E329CC005F80BB /* Constants.swift */; };
-		558A499223E32B3B005F80BB /* DesignerPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558A499123E32B3B005F80BB /* DesignerPostCell.swift */; };
-		558A499423E32B81005F80BB /* DesignerPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558A499323E32B81005F80BB /* DesignerPostCell.xib */; };
 		5597045A23E0B66900C3E0C2 /* PersonalAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597045923E0B66900C3E0C2 /* PersonalAccountVC.swift */; };
 		5597045C23E0B84100C3E0C2 /* DesignPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597045B23E0B84100C3E0C2 /* DesignPost.swift */; };
 		55A62F9A23EF33710029FF65 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 55A62F9923EF33710029FF65 /* GoogleService-Info (1).plist */; };
 		55C592DF23FA89EF005B7E42 /* HomeVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C592DE23FA89EF005B7E42 /* HomeVC2.swift */; };
-		55C592E323FA906A005B7E42 /* CollectionViewWaterFallLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C592E223FA906A005B7E42 /* CollectionViewWaterFallLayoutViewController.swift */; };
-		55C592E723FAB167005B7E42 /* StoryCellonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C592E623FAB167005B7E42 /* StoryCellonCollectionView.swift */; };
+		55D4E15523FD59C400465605 /* DesignerPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4E15423FD59C400465605 /* DesignerPostCell.swift */; };
+		55D4E15723FDB80D00465605 /* CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4E15623FDB80D00465605 /* CollectionLayout.swift */; };
 		55DE50A923F1748400EC77C6 /* UploadDesignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE50A823F1748300EC77C6 /* UploadDesignVC.swift */; };
 		55DE50AB23F17D3900EC77C6 /* ItemsUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE50AA23F17D3900EC77C6 /* ItemsUpload.swift */; };
 		D0613D7667992F446623FC55 /* Pods_F_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39890D4009500E58FD86DB57 /* Pods_F_app.framework */; };
@@ -33,21 +30,18 @@
 		555322DF23D04DB000F4F965 /* F-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		555322E223D04DB000F4F965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555322E423D04DB000F4F965 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		555322E623D04DB000F4F965 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		555322E923D04DB000F4F965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		555322EC23D04DB000F4F965 /* F_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = F_app.xcdatamodel; sourceTree = "<group>"; };
 		555322EE23D04DB200F4F965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		555322F123D04DB200F4F965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		555322F323D04DB200F4F965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558A498F23E329CC005F80BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		558A499123E32B3B005F80BB /* DesignerPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPostCell.swift; sourceTree = "<group>"; };
-		558A499323E32B81005F80BB /* DesignerPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignerPostCell.xib; sourceTree = "<group>"; };
 		5597045923E0B66900C3E0C2 /* PersonalAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAccountVC.swift; sourceTree = "<group>"; };
 		5597045B23E0B84100C3E0C2 /* DesignPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPost.swift; sourceTree = "<group>"; };
 		55A62F9923EF33710029FF65 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		55C592DE23FA89EF005B7E42 /* HomeVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC2.swift; sourceTree = "<group>"; };
-		55C592E223FA906A005B7E42 /* CollectionViewWaterFallLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWaterFallLayoutViewController.swift; sourceTree = "<group>"; };
-		55C592E623FAB167005B7E42 /* StoryCellonCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCellonCollectionView.swift; sourceTree = "<group>"; };
+		55D4E15423FD59C400465605 /* DesignerPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignerPostCell.swift; sourceTree = "<group>"; };
+		55D4E15623FDB80D00465605 /* CollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLayout.swift; sourceTree = "<group>"; };
 		55DE50A823F1748300EC77C6 /* UploadDesignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDesignVC.swift; sourceTree = "<group>"; };
 		55DE50AA23F17D3900EC77C6 /* ItemsUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsUpload.swift; sourceTree = "<group>"; };
 		B44C6924DC5DBB18AB5CE4A5 /* Pods-F-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F-app.release.xcconfig"; path = "Target Support Files/Pods-F-app/Pods-F-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,26 +118,16 @@
 			isa = PBXGroup;
 			children = (
 				55C592DE23FA89EF005B7E42 /* HomeVC2.swift */,
-				55C592E223FA906A005B7E42 /* CollectionViewWaterFallLayoutViewController.swift */,
 			);
 			path = "Pinterest VC";
-			sourceTree = "<group>";
-		};
-		55C592DD23FA89C3005B7E42 /* OldVC */ = {
-			isa = PBXGroup;
-			children = (
-				555322E623D04DB000F4F965 /* HomeVC.swift */,
-			);
-			path = OldVC;
 			sourceTree = "<group>";
 		};
 		55D5E08D23DF06DA0089F65E /* View */ = {
 			isa = PBXGroup;
 			children = (
 				555322E823D04DB000F4F965 /* Main.storyboard */,
-				558A499123E32B3B005F80BB /* DesignerPostCell.swift */,
-				558A499323E32B81005F80BB /* DesignerPostCell.xib */,
-				55C592E623FAB167005B7E42 /* StoryCellonCollectionView.swift */,
+				55D4E15423FD59C400465605 /* DesignerPostCell.swift */,
+				55D4E15623FDB80D00465605 /* CollectionLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,7 +144,6 @@
 		55D5E08F23DF06EB0089F65E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				55C592DD23FA89C3005B7E42 /* OldVC */,
 				55C592DC23FA89B7005B7E42 /* Pinterest VC */,
 				5597045923E0B66900C3E0C2 /* PersonalAccountVC.swift */,
 				55DE50A823F1748300EC77C6 /* UploadDesignVC.swift */,
@@ -236,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558A499423E32B81005F80BB /* DesignerPostCell.xib in Resources */,
 				555322F223D04DB200F4F965 /* LaunchScreen.storyboard in Resources */,
 				55A62F9A23EF33710029FF65 /* GoogleService-Info (1).plist in Resources */,
 				555322EF23D04DB200F4F965 /* Assets.xcassets in Resources */,
@@ -293,15 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558A499223E32B3B005F80BB /* DesignerPostCell.swift in Sources */,
+				55D4E15523FD59C400465605 /* DesignerPostCell.swift in Sources */,
 				555322ED23D04DB000F4F965 /* F_app.xcdatamodeld in Sources */,
 				5597045C23E0B84100C3E0C2 /* DesignPost.swift in Sources */,
-				55C592E323FA906A005B7E42 /* CollectionViewWaterFallLayoutViewController.swift in Sources */,
 				55DE50A923F1748400EC77C6 /* UploadDesignVC.swift in Sources */,
 				55C592DF23FA89EF005B7E42 /* HomeVC2.swift in Sources */,
+				55D4E15723FDB80D00465605 /* CollectionLayout.swift in Sources */,
 				5597045A23E0B66900C3E0C2 /* PersonalAccountVC.swift in Sources */,
-				55C592E723FAB167005B7E42 /* StoryCellonCollectionView.swift in Sources */,
-				555322E723D04DB000F4F965 /* HomeVC.swift in Sources */,
 				558A499023E329CC005F80BB /* Constants.swift in Sources */,
 				555322E323D04DB000F4F965 /* AppDelegate.swift in Sources */,
 				555322E523D04DB000F4F965 /* SceneDelegate.swift in Sources */,

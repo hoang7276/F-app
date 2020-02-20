@@ -9,5 +9,5 @@
 import UIKit
 
 class DesignerPostCell: UICollectionViewCell {
-    
+    @IBOutlet weak var ImageView: UIImageView!
 }
