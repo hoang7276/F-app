@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+struct ItemsUpload {
+    
+    let id: String
+    let image: UIImage
+    let category: String
+    
+    
+}
